@@ -1,6 +1,6 @@
 Config = {}
 
-Config.Framework = 'esx' --[ 'esx / 'qbus' / 'vrp' / 'ace' / 'custom' ] Choose your framework so you can add resctict the command to be used by staff only.
+Config.Framework = 'custom' --[ 'esx / 'qbus' / 'vrp' / 'ace' / 'custom' ] Choose your framework so you can add resctict the command to be used by staff only.
 Config.Framework_perms = { --You can choose multiple permission group to have access to use the UI. (This will be used by all framework versions by default except the "custom" option).
   	['superadmin'] = true,
     ['admin'] = true,
@@ -15,7 +15,7 @@ Config.NUI_keepinput = true --Do you want to be able to walk around when the UI 
 
 Config.TimeCycleSpeed = 2 --(in seconds) Changing this value will effects the day/night time cycle, decreasing slows it down, incresing speeds it up. Right now its similar to the default gta5 time cycle.
 Config.DynamicWeather = true --Do you want to allow dynamic weather?
-Config.DynamicWeather_time = 10 --(in minutes) If dynamic weather is enabled, this value is how long until the weather changes.
+Config.DynamicWeather_time = 15 --(in minutes) If dynamic weather is enabled, this value is how long until the weather changes.
 Config.RainChance = 10 --The percent chance for it to rain out of 100.
 Config.SnowChance = 1 --The percent chance for it to snow out of 100.
 Config.ThunderChance = 20 --The percent chance for it to thunder when raining out of 100.
